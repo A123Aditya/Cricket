@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:myapp/UI/HomeScreen/Pages/Cricket.dart';
-import 'package:myapp/UI/Match%20Details/Crickets/Live.dart';
+import 'package:myapp/UI/Match%20Details/Crickets/Live/Live.dart';
 import 'package:myapp/UI/Match%20Details/Crickets/Sechdule.dart';
 import 'package:myapp/UI/Match%20Details/Crickets/Upcoming.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';

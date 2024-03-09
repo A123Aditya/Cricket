@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:myapp/UI/HomeScreen/HomeScreen.dart';
 import 'package:myapp/UI/Match%20Details/Crickets/CricketHomeScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:myapp/UI/Match%20Details/Crickets/Live/LiveCompleteInfo.dart';
 import 'package:myapp/firebase_options.dart';
 
 void main() async {
@@ -28,7 +29,9 @@ class MyApp extends StatelessWidget {
       builder: (_, child) {
         return GetMaterialApp(
             //home: CricketHome(),
-            home: HomeScreen());
+             home: HomeScreen()
+            //home: LiveCompleteInfo()
+            );
       },
     );
   }
